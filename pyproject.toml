@@ -2,3 +2,22 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[project]
+name = "ABPy"
+version = "0.0.1"
+authors = [
+  { name="LiXuan", email="lixuan.xyz@gmail.com" },
+]
+description = "A simple and easy A/B-testing package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/SqRoots/ABPy"
+Issues = "https://github.com/SqRoots/ABPy/issues"
